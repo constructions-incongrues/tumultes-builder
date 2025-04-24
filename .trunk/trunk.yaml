@@ -30,3 +30,7 @@ lint:
     - prettier@3.5.3
     - trufflehog@3.88.25
     - yamllint@1.37.0
+actions:
+  enabled:
+    - trunk-check-pre-commit
+    - trunk-fmt-pre-commit
